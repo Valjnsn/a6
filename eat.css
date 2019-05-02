@@ -1,0 +1,141 @@
+
+header {
+  background-image: url("Jensen Arch-1954.jpeg") ;
+  background-repeat: no-repeat;
+  height: 500px;
+
+  background-size: cover;
+}
+
+h1{
+  grid-area: h1;
+  background-color: #FF6663;
+}
+nav {
+  background-color: skyblue;
+  height: 60px;
+}
+
+.green {
+  font-family: 'Pacifico', cursive;
+  color: green;
+  font-size: 400%;
+}
+.green1 {
+  font-family: 'Pacifico', cursive;
+  color: green;
+}
+
+body{
+      background-color: #A51080  ;
+      
+    }
+          .container{
+            display: grid;
+          
+          }
+          .section{
+            display: grid;
+            grid-template-areas: 'h1        h1'
+                                 'slideshow p';
+          }
+          .section2{
+            display:grid;
+            grid-template-areas: 'h1        h1'
+                                 'slideshow p';
+          }
+          .section3{
+            display: grid;
+            grid-template-areas: 'h1        h1'
+                                 'slideshow p';
+          }
+          .light {
+           
+            border: 5px solid red;
+            width: 560px;
+            grid-area: p;
+            font-family: 'Handlee', cursive;
+            font-size: 150%;
+            color:skyblue;
+          }
+          .slideshow {
+            grid-area: slideshow;
+          }
+
+       
+
+        footer 
+          {
+            grid-area: footer;
+            background-color: #FF6663;
+
+            color: white;
+            text-align: center;
+            line-height: 80px;
+            font-style: italic;
+        }
+
+    
+
+    
+/*
+        article {
+           
+           background-color: #FF6663;
+           height: 15px;
+        }
+        a{ text-decoration: none ;
+          text-align : center center ;
+          color: blue ;        }
+          a:hover {
+  background-color: #E0FF4F ;
+  text-decoration: none ;
+  color: #FF6663 ;
+
+        
+  
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+
+
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.theTarget {
+  display: grid;
+
+}
+
+
+

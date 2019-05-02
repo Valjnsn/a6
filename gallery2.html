@@ -1,0 +1,213 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="gallery.css">
+ <link href="https://fonts.googleapis.com/css?family=Abril Fatface" rel="stylesheet">
+
+
+ 
+  <title>Stuart Gallery </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width-initial-scale=1.0">
+</head>
+<body>
+  
+<header>
+  <div class="container">
+    <div class="header">Beautiful Stuart
+    </div>
+  </header>
+<body>
+    <div class="test"><p>Look below to see al of the mesmerizing pictures of Stuart. View the sparkling oceans to the delicious food.  </p></div>
+    <article> 
+      <a href="index.html">Home</a>
+    <a href="history.html">History</a>
+     <a href="index.html">CHANGEEEEE</a>
+      <a href="eat.html">Restaurants</a>
+  </article>
+  </div>
+        
+<main>
+ 
+
+<div id="slideshow">
+   <div class="y">
+     <img src="view.jpeg">
+   </div>
+   <div class="y">
+     <img src="dock2.jpeg">
+   </div>
+   
+   <div class="y">
+     <img src="coast.jpeg">
+   </div>
+  
+   
+   <div class="y">
+     <img src="town2.jpeg">
+   </div>
+   
+    <div class="y">
+     <img src="town.jpeg">
+   </div>
+     <div class="y">
+     <img src="luna1.png">
+   </div>
+     <div class="y">
+     <img src="luna2.png">
+   </div>
+     <div class="y">
+     <img src="luna3.png">
+   </div>
+     <div class="y">
+     <img src="luna4.png">
+   </div>
+     <div class="y">
+     <img src="rolls.png">
+   </div>
+     <div class="y">
+     <img src="sp1.jpeg">
+   </div>
+     <div class="y">
+     <img src="sp2.jpeg">
+   </div>
+     <div class="y">
+     <img src="sp3.jpeg">
+   </div>
+     <div class="y">
+     <img src="walk1.jpeg">
+   </div>
+     <div class="y">
+     <img src="walk2.jpeg">
+   </div>
+     <div class="y">
+     <img src="walk3.jpeg">
+   </div>
+     <div class="y">
+     <img src="walk4.png">
+   </div>
+    
+
+<h2> Stuart Pictures</h2>
+<div class="container">
+
+
+
+  <p> Hi </p>
+ 
+
+ <h3> Stuart Views </h3>
+ <button id="hide">Hide</button>
+<button id="show">Show</button>
+ <!--
+<img class=yes src="dock2.jpeg">
+  <img class=yes src="town.jpeg">
+  <img class=yes src="view.jpeg">
+  <img class=yes src="coast.jpeg">
+  <img class=yes src="town2.jpeg">
+  <img class=yes src="water.jpeg">
+  <!--<img src="bridge.jpeg">  
+  <img src="dock.jpeg"> -->
+  <!--<img class=yes src="stuart.jpg"> 
+  <img class=yes src="sec1.jpeg">
+   <img class=yes src="sec11.jpeg">
+</div>
+
+  <h3> Food and Restaurants </h3>
+  <button id="hide1">Hide</button>
+<button id="show1">Show</button>
+
+<img class=yes src="cafe.jpg">
+<img class=yes src="luna1.png">
+<img class=yes src="luna2.png">
+<img class=yes src="luna3.png">
+<img class=yes src="luna4.png">
+<img class=yes src="sp1.jpeg">
+<img class=yes src="sp2.jpeg">
+<img class=yes src="sp3.jpeg">
+<img class=yes src="walk1.jpeg">
+<img class=yes src="walk2.jpeg">
+<img class=yes src="walk3.jpeg">
+<!--<img src="walk4.jpeg"> -->
+ <!--<img class=yes src="food22.jpeg">
+</div>
+
+<h3> Old Stuart </h3>
+<button id="hide2">Hide</button>
+<button id="show2">Show</button>
+<div class="container3" id="3">
+<img class=yes src="Jensen Arch-1954.jpeg">
+<img class=yes src="museum.jpg">
+<img class=yes src="old2.jpeg">
+
+ <img class=yes src="his1.jpeg">
+  <img class=yes src="his2.jpeg">
+   <img class=yes src="his3.jpeg">
+    <img class=yes src="his4.jpeg">
+     <img class=yes src="his5.jpeg">-->
+      <img class=yes src="his6.jpeg">
+</div>
+</div>
+</main>
+  
+  
+ 
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="gallery.js"></script>
+<script> 
+  $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+</script>
+<script>
+  $(document).ready(function(){
+  $("#hide").click(function(){
+    $("#1").hide();
+  });
+  $("#show").click(function(){
+    $("#1").show();
+  });
+});
+</script>
+<script>
+  $(document).ready(function(){
+  $("#hide1").click(function(){
+    $("#2").hide();
+  });
+  $("#show1").click(function(){
+    $("#2").show();
+  });
+});
+</script>
+<script>
+  $(document).ready(function(){
+  $("#hide2").click(function(){
+    $("#3").hide();
+  });
+  $("#show2").click(function(){
+    $("#3").show();
+  });
+});
+</script>
+
+
+</body>
+<footer>
+<div class="footer"> Stuart, Florida</div>
+</footer>;
+
+</div>
+</body>
+</html>
+

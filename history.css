@@ -1,0 +1,119 @@
+body{
+    	background-image: url("old2.jpeg")  ;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+
+    }
+
+    h1 {
+    	font-size: 150%
+    	color: skyblue;
+    	font-family: 'Sonsie One', cursive ;
+    	text-align: center;
+    	color: #FF9000;
+
+    }
+    .accordion-header {
+color:orange;
+    }
+    h2{
+    	color: #EA1744;
+    }
+    h3{
+color: #FF9000;
+    }
+
+    p {
+    	font-family: 'Quicksand', sans-serif;
+    	color: #EA1744;
+    	font-size: 150%;
+    }
+.accordion {
+	background: linear-gradient(to bottom right, white, #F8F8F8);
+	max-width: 400px;
+	background: white;
+	margin: 0 auto;
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+	border-bottom: 1px solid #DDE0E7;
+	color: #2a313a;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 1.5rem;
+}
+
+.accordion-header:hover {
+	background: #F6F7F9;
+}
+
+.accordion-content {
+	
+	border-bottom: 1px solid #DDE0E7;
+	background: #F6F7F9;
+	display: ;
+	color: #4a5666;
+}
+
+.accordion-header::before {
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+	width: .75rem;
+	height: .75rem;
+	border-radius: 50%;
+	background-color: #B1B5BE;
+	margin-right: .75rem;
+}
+
+.active.accordion-header::before {
+	background-color: #FC6468;
+}
+
+.accordion-header {
+	cursor: pointer;
+}
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+
+
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.theTarget {
+  display: grid;
+
+}
+
+

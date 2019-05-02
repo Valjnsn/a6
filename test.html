@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+  </head>
+  <body>
+
+    <div id="task1" class="task">
+      <h2>Task 1</h2>
+      <p>Change the background color, of the div that contains this task, to the color in each box when the box is hovered over.</p>
+      <p>When the mouse stops hovering over the box, change the background color back to white.</p>
+      <div id="t1_color_one" class="t1_colors" style="background: hotpink;"></div>
+      <div id="t1_color_two" class="t1_colors" style="background: lightgreen;"></div>
+      <div id="t1_color_three" class="t1_colors" style="background: palevioletred;"></div>
+    </div>
+<style>t1_colors {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border: 1px solid rgb(111, 61, 69);
+}</style>
+    <script>
+      var taskEl = document.getElementById('task1');
+      var t1El = document.querySelectorAll(".t1_colors");
+
+      for(var i=0; i<t1El.length; i++){
+        t1El[i].addEventListener("mouseenter", hoverColor ,false);
+        t1El[i].addEventListener("mouseleave", hoverColor ,false)
+      }
+      function hoverColor(event){
+        var myColor = this.style.backgroundColor;
+        if(event.type === "mouseenter"){
+          taskEl.style.backgroundColor = myColor;
+        }else{
+          taskEl.style.backgroundColor = "white";
+        }
+      }
+    </script>
+
+  </body>
+</html>
