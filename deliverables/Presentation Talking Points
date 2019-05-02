@@ -1,0 +1,38 @@
+TALKING POINTS
+
+- What is your site about and what was the motivation to create it?
+My site is about the beautiful city of Stuart, the Sailfish capital of the country. I wanted to make a websote about this place because 
+it is a city that I have spent a lot of time in and is close to where I live. I like it a lot because it is a historical place that 
+is also very artistic and appealing atmosphere. 
+
+- How is your site structured/ what are the different pages
+I made five linked webpages with different layouts. I made a home page with a big header image to catch the eye. I made sure to make
+the nav section clear for the users especially on this page. It has a general explanation of Stuart and what to expect from the rest of 
+the website. I also included an aside that gives the viewer a quick glance of the demographics on this page. I also made a restaurant page
+where the viewer can see three specific restaurants and what they look like. There is a jquery library that lets you rate the restaurants.
+The <p> text is contained in a border to organize the content for each restaurant.
+Then there is a history page which I formatted with one background image and text laid on top. I made several <h3> tags that direct 
+the user right to the <p> tags and other images. There is also an explore downtown Stuart page that lists out places to shop
+in Stuart. There are also asides used for each store that provides details such as location and the web links to the shops as well. 
+I also made a gallery that includes a slideshow followed by a grid of images. 
+
+- What Javascript/Jquery libraries are being used here and would you recommend using it for future projects
+In the home page there was a library that I used that worked perfectly fine and randomly stopped working. It looked very nice and the 
+title would rotate the first word and transition into another. I used javascript in the history page to get the format that is there.
+The code was also supposed to make each piece of content toggle, which it doesnt, but the same code does create the hovering effect and 
+the format that you see there. Another library was used for the restaurant page in order to put the stars to rate the restaurants. 
+I liked this idea a lot but the code does not track how many people vote on it and the stars go blank after refreshing. It works
+aesthetically though and can be worked with more in another project. The gallery uses javascript in order to create the show/hide effect
+with the buttons and the pictures. I had trouble getting this to work because everytime I made a div for a group of pictures, they would
+disappear completely off the page, which is why I did each image individually and the page is somewhat unorganized. Other than that,
+this element can be a very useful tool to use in the future.
+
+- Show site responsiveness
+There are also CSS responsive features such as hover effect over certain areas such as <h1> and <p> tags that will make the background
+another color. Same goes for text color on other elements. The js and jquery elements also add responsiveness to the page. There are also
+@media css usage in order to make the website more compatible with different size screens. 
+
+- What are your future project plans/next steps to take for your web project if any?
+I would want to make my webpage look more organized. I'm not happy with some of the layout, especially the gallery where the grid 
+looks funky. I would also like to continue coding. I think with enough practice, I can develop my own personal website to promote my
+motion pictures career.
